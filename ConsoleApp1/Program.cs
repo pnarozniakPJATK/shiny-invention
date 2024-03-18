@@ -10,9 +10,9 @@ Console.WriteLine("Commit 3");
 
 return;
 
-static double CalculateAverage(int[] array)
+static double CalculateAverage(int[] integers)
 {
-    return array.Average();
+    return integers.Average();
 }
 
 static int GetMaxValue(int[] arr)
